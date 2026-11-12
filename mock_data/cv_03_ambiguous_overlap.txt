@@ -1,0 +1,21 @@
+NAMA: Raka Wijaya Kusuma
+EMAIL: raka.wijaya.mock@example.com
+LOKASI: Jakarta, Indonesia
+RINGKASAN: Software & AI Developer berpengalaman dalam pengembangan backend dan integrasi kecerdasan buatan.
+
+PENGALAMAN KERJA:
+1. Full-time AI Engineer | PT Solusi Cerdas Digital | Mar 2023 - Sekarang
+   - Mengembangkan chatbot layanan pelanggan menggunakan Python dan OpenAI API.
+   - Meningkatkan efisiensi operasional perusahaan secara signifikan melalui otomasi AI.
+
+2. Full-time Backend Developer | PT Karya Tech Indonesia | Jan 2023 - Okt 2023
+   - Membangun REST API menggunakan Python FastAPI dan PostgreSQL untuk aplikasi internal.
+
+3. Freelance Automation Consultant | 2022 - 2023
+   - Membantu klien membuat skrip otomasi alur kerja.
+
+PENDIDIKAN:
+- S1 Ilmu Komputer, Universitas Indonesia (Lulus 2022)
+
+KEAHLIAN:
+Python, FastAPI, OpenAI API, PostgreSQL.

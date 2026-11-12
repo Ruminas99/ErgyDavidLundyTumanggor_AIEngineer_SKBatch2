@@ -1,0 +1,131 @@
+{
+  "candidate_profile": {
+    "full_name": "Dimas Arya Pratama",
+    "email": "dimas.arya.mock@example.com",
+    "location": "Surabaya, Indonesia",
+    "current_title": "Staf Administrasi Operasional"
+  },
+  "education": [
+    {
+      "institution": "Universitas Airlangga",
+      "degree": "S1 Sistem Informasi",
+      "graduation_year": "2023",
+      "evidence_quote": "S1 Sistem Informasi, Universitas Airlangga (Lulus 2023)",
+      "evidence_verified": true,
+      "confidence": "high"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Staf Administrasi Operasional",
+      "company": "PT Maju Bersama Logistik",
+      "start_date": "Feb 2024",
+      "end_date": "Agu 2024",
+      "key_outcomes": [
+        "Mengelola input data pengiriman barang harian menggunakan Microsoft Excel.",
+        "Membantu pembuatan jadwal pengiriman dan koordinasi dokumen surat jalan dengan tim gudang."
+      ],
+      "evidence_quote": "Mengelola input data pengiriman barang harian menggunakan Microsoft Excel.",
+      "evidence_verified": true,
+      "confidence": "high"
+    },
+    {
+      "role": "Magang Customer Support",
+      "company": "Toko Online Sejahtera",
+      "start_date": "Agu 2023",
+      "end_date": "Nov 2023",
+      "key_outcomes": [
+        "Menjawab pertanyaan pelanggan melalui platform chat dan mencatat keluhan harian ke spreadsheet."
+      ],
+      "evidence_quote": "Menjawab pertanyaan pelanggan melalui platform chat dan mencatat keluhan harian ke spreadsheet.",
+      "evidence_verified": true,
+      "confidence": "high"
+    }
+  ],
+  "skills": [
+    {
+      "skill_name": "Python",
+      "has_practical_evidence": false,
+      "evidence_quote": "Python, LangChain, RAG (Retrieval-Augmented Generation), OpenAI API, Prompt Engineering, Vector Database, Microsoft Excel.",
+      "evidence_verified": true,
+      "confidence": "low"
+    },
+    {
+      "skill_name": "LangChain",
+      "has_practical_evidence": false,
+      "evidence_quote": "Python, LangChain, RAG (Retrieval-Augmented Generation), OpenAI API, Prompt Engineering, Vector Database, Microsoft Excel.",
+      "evidence_verified": true,
+      "confidence": "low"
+    },
+    {
+      "skill_name": "RAG (Retrieval-Augmented Generation)",
+      "has_practical_evidence": false,
+      "evidence_quote": "Python, LangChain, RAG (Retrieval-Augmented Generation), OpenAI API, Prompt Engineering, Vector Database, Microsoft Excel.",
+      "evidence_verified": true,
+      "confidence": "low"
+    },
+    {
+      "skill_name": "OpenAI API",
+      "has_practical_evidence": false,
+      "evidence_quote": "Python, LangChain, RAG (Retrieval-Augmented Generation), OpenAI API, Prompt Engineering, Vector Database, Microsoft Excel.",
+      "evidence_verified": true,
+      "confidence": "low"
+    },
+    {
+      "skill_name": "Prompt Engineering",
+      "has_practical_evidence": false,
+      "evidence_quote": "Python, LangChain, RAG (Retrieval-Augmented Generation), OpenAI API, Prompt Engineering, Vector Database, Microsoft Excel.",
+      "evidence_verified": true,
+      "confidence": "low"
+    },
+    {
+      "skill_name": "Vector Database",
+      "has_practical_evidence": false,
+      "evidence_quote": "Python, LangChain, RAG (Retrieval-Augmented Generation), OpenAI API, Prompt Engineering, Vector Database, Microsoft Excel.",
+      "evidence_verified": true,
+      "confidence": "low"
+    },
+    {
+      "skill_name": "Microsoft Excel",
+      "has_practical_evidence": true,
+      "evidence_quote": "Mengelola input data pengiriman barang harian menggunakan Microsoft Excel.",
+      "evidence_verified": true,
+      "confidence": "high"
+    }
+  ],
+  "role_match": {
+    "target_role": "AI & Automation Engineer",
+    "match_score_0_to_100": 28,
+    "matched_requirements": [
+      {
+        "requirement": "Latar belakang akademik bidang komputasi / sistem informasi",
+        "supporting_evidence": "S1 Sistem Informasi, Universitas Airlangga (Lulus 2023)"
+      }
+    ],
+    "missing_or_unverified_requirements": [
+      "Pengalaman praktis membangun aplikasi/workflow dengan Python (min. 1 tahun) — Hanya diklaim di daftar skill tanpa bukti proyek/kerja",
+      "Pengalaman menggunakan LLM APIs (OpenAI, Gemini, atau Anthropic) dan structured JSON extraction — Klaim tanpa bukti praktis",
+      "Pemahaman tentang evaluasi AI / pengujian kualitas output — Tidak ditemukan bukti di CV",
+      "Pengalaman membangun automation workflow (n8n, Zapier, atau custom scripts) dan pengelolaan database vektor — Klaim tanpa bukti praktis"
+    ]
+  },
+  "information_gaps": [
+    "Tidak ditemukan informasi mengenai proyek portofolio, skripsi, atau repositori kode yang membuktikan penggunaan praktis Python, LangChain, RAG, OpenAI API, dan Vector Database pada CV; perlu dikonfirmasi saat screening.",
+    "Tidak ditemukan informasi mengenai pengalaman structured JSON extraction dan evaluasi kualitas output AI pada CV; perlu dikonfirmasi saat screening.",
+    "Tidak ditemukan informasi mengenai pengalaman membangun automation workflow (seperti n8n atau Zapier) pada CV; perlu dikonfirmasi saat screening."
+  ],
+  "recommendation": {
+    "status": "proceed_with_verification",
+    "summary_rationale": "Kandidat mencantumkan banyak keyword AI relevan (Python, LangChain, RAG, OpenAI API, Prompt Engineering, Vector Database) pada daftar Keahlian, namun riwayat pengalaman kerja hanya mencakup administrasi operasional (Microsoft Excel) dan Customer Support tanpa bukti proyek teknis. Sesuai prinsip 'Absence of Evidence != Evidence of Absence', direkomendasikan 'proceed_with_verification' untuk meminta bukti portofolio/GitHub atau tes teknis awal sebelum keputusan wawancara.",
+    "suggested_interview_questions": [
+      "Anda mencantumkan Python, LangChain, RAG, OpenAI API, dan Vector Database di daftar keahlian. Bisa tunjukkan proyek pribadi, tugas akhir, atau repositori GitHub tempat Anda menerapkan teknologi tersebut?",
+      "Apakah selama bekerja sebagai Staf Administrasi Operasional atau Magang CS Anda pernah mengotomasi pengolahan spreadsheet menggunakan skrip Python?",
+      "Bagaimana cara Anda memastikan output dari OpenAI API mengikuti skema JSON tertentu dan tidak berhalusinasi?"
+    ]
+  },
+  "caveats": [
+    "Unsubstantiated skill claims detected: Python, LangChain, RAG (Retrieval-Augmented Generation), OpenAI API, Prompt Engineering, dan Vector Database hanya tertulis di bagian KEAHLIAN tanpa bukti nyata pada PENGALAMAN KERJA.",
+    "Pengalaman kerja praktis di bidang pengembangan Python/AI belum mencapai syarat minimal 1 tahun."
+  ],
+  "human_review_required": true
+}

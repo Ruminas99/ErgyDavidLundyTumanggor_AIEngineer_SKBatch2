@@ -1,0 +1,14 @@
+ROLE: AI & Automation Engineer
+COMPANY: Sekolah Karir
+LOCATION: Jakarta / Hybrid
+
+RESPONSIBILITIES:
+- Merancang dan membangun workflow berbasis LLM (prompt engineering, structured output, RAG) untuk kebutuhan operasional dan konten pendidikan.
+- Mengintegrasikan API LLM dengan sistem internal menggunakan Python.
+- Membangun mekanisme evaluasi kualitas output AI dan guardrails/human-in-the-loop.
+
+REQUIREMENTS:
+- Pengalaman praktis membangun aplikasi/workflow dengan Python (min. 1 tahun).
+- Pengalaman menggunakan LLM APIs (OpenAI, Gemini, atau Anthropic) dan structured JSON extraction.
+- Pemahaman tentang evaluasi AI / pengujian kualitas output.
+- Nilai tambah (Preferred): Pengalaman membangun automation workflow (n8n, Zapier, atau custom scripts) dan pengelolaan database vektor.

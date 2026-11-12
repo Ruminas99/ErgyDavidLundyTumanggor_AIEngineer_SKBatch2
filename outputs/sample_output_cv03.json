@@ -1,0 +1,130 @@
+{
+  "candidate_profile": {
+    "full_name": "Raka Wijaya Kusuma",
+    "email": "raka.wijaya.mock@example.com",
+    "location": "Jakarta, Indonesia",
+    "current_title": "Full-time AI Engineer"
+  },
+  "education": [
+    {
+      "institution": "Universitas Indonesia",
+      "degree": "S1 Ilmu Komputer",
+      "graduation_year": "2022",
+      "evidence_quote": "S1 Ilmu Komputer, Universitas Indonesia (Lulus 2022)",
+      "evidence_verified": true,
+      "confidence": "high"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Full-time AI Engineer",
+      "company": "PT Solusi Cerdas Digital",
+      "start_date": "Mar 2023",
+      "end_date": "Sekarang",
+      "key_outcomes": [
+        "Mengembangkan chatbot layanan pelanggan menggunakan Python dan OpenAI API.",
+        "Meningkatkan efisiensi operasional perusahaan secara signifikan melalui otomasi AI."
+      ],
+      "evidence_quote": "Mengembangkan chatbot layanan pelanggan menggunakan Python dan OpenAI API serta meningkatkan efisiensi operasional perusahaan sebesar 45% melalui otomasi AI.",
+      "evidence_verified": false,
+      "confidence": "low"
+    },
+    {
+      "role": "Full-time Backend Developer",
+      "company": "PT Karya Tech Indonesia",
+      "start_date": "Jan 2023",
+      "end_date": "Okt 2023",
+      "key_outcomes": [
+        "Membangun REST API menggunakan Python FastAPI dan PostgreSQL untuk aplikasi internal."
+      ],
+      "evidence_quote": "Membangun REST API menggunakan Python FastAPI dan PostgreSQL untuk aplikasi internal.",
+      "evidence_verified": true,
+      "confidence": "high"
+    },
+    {
+      "role": "Freelance Automation Consultant",
+      "company": "Freelance / Self-Employed",
+      "start_date": "2022",
+      "end_date": "2023",
+      "key_outcomes": [
+        "Membantu klien membuat skrip otomasi alur kerja."
+      ],
+      "evidence_quote": "Membantu klien membuat skrip otomasi alur kerja.",
+      "evidence_verified": true,
+      "confidence": "medium"
+    }
+  ],
+  "skills": [
+    {
+      "skill_name": "Python",
+      "has_practical_evidence": true,
+      "evidence_quote": "Mengembangkan chatbot layanan pelanggan menggunakan Python dan OpenAI API.",
+      "evidence_verified": true,
+      "confidence": "high"
+    },
+    {
+      "skill_name": "FastAPI",
+      "has_practical_evidence": true,
+      "evidence_quote": "Membangun REST API menggunakan Python FastAPI dan PostgreSQL untuk aplikasi internal.",
+      "evidence_verified": true,
+      "confidence": "high"
+    },
+    {
+      "skill_name": "OpenAI API",
+      "has_practical_evidence": true,
+      "evidence_quote": "Mengembangkan chatbot layanan pelanggan menggunakan Python dan OpenAI API.",
+      "evidence_verified": true,
+      "confidence": "high"
+    },
+    {
+      "skill_name": "PostgreSQL",
+      "has_practical_evidence": true,
+      "evidence_quote": "Membangun REST API menggunakan Python FastAPI dan PostgreSQL untuk aplikasi internal.",
+      "evidence_verified": true,
+      "confidence": "high"
+    }
+  ],
+  "role_match": {
+    "target_role": "AI & Automation Engineer",
+    "match_score_0_to_100": 58,
+    "matched_requirements": [
+      {
+        "requirement": "Pengalaman praktis membangun aplikasi/workflow dengan Python (min. 1 tahun)",
+        "supporting_evidence": "Membangun REST API menggunakan Python FastAPI dan PostgreSQL serta chatbot layanan pelanggan menggunakan Python."
+      },
+      {
+        "requirement": "Pengalaman menggunakan LLM APIs (OpenAI, Gemini, atau Anthropic)",
+        "supporting_evidence": "Mengembangkan chatbot layanan pelanggan menggunakan Python dan OpenAI API."
+      }
+    ],
+    "missing_or_unverified_requirements": [
+      "Structured JSON extraction dari LLM belum disebutkan secara eksplisit di CV",
+      "Pemahaman tentang evaluasi AI / pengujian kualitas output dan guardrails belum disebutkan di CV",
+      "Nilai tambah (Preferred): Pengelolaan database vektor (Vector Database) dan tools workflow (n8n/Zapier) belum terverifikasi"
+    ]
+  },
+  "information_gaps": [
+    "Tidak ditemukan informasi mengenai pengalaman structured JSON extraction pada CV; perlu dikonfirmasi saat screening.",
+    "Tidak ditemukan informasi mengenai mekanisme evaluasi kualitas output AI dan guardrails/human-in-the-loop pada CV; perlu dikonfirmasi saat screening.",
+    "Tidak ditemukan informasi mengenai penggunaan Vector Database atau platform otomasi spesifik (seperti n8n/Zapier) pada CV; perlu dikonfirmasi saat screening."
+  ],
+  "recommendation": {
+    "status": "hold_for_human_review",
+    "summary_rationale": "Meskipun kandidat memiliki bukti teknis penggunaan Python, FastAPI, dan OpenAI API, terdapat anomali krusial yang wajib ditinjau perekrut manusia ('hold_for_human_review'): (1) dua pekerjaan Full-time berjalan bersamaan secara tumpang tindih pada periode Mar 2023 - Okt 2023, (2) periode kerja Freelance (2022 - 2023) tidak mencantumkan bulan spesifik, (3) klaim peningkatan efisiensi operasional bersifat subjektif tanpa metrik terukur, dan (4) terdapat kutipan ekstraksi yang gagal verifikasi deterministik.",
+    "suggested_interview_questions": [
+      "Pada CV tertulis Anda bekerja Full-time sebagai AI Engineer di PT Solusi Cerdas Digital (Mar 2023 - Sekarang) sekaligus Full-time Backend Developer di PT Karya Tech Indonesia (Jan 2023 - Okt 2023). Bisa klarifikasi status dan pembagian waktu kedua peran penuh waktu tersebut pada rentang Mar 2023 - Okt 2023?",
+      "Untuk peran Freelance Automation Consultant (2022 - 2023), kapan bulan mulai dan berakhirnya secara spesifik, serta tools otomasi apa yang digunakan?",
+      "Terkait klaim 'Meningkatkan efisiensi operasional perusahaan secara signifikan melalui otomasi AI', metrik konkret apa yang diukur (misal waktu respons, jumlah tiket, atau penghematan biaya)?"
+    ]
+  },
+  "caveats": [
+    "Terdapat tumpang tindih (overlapping dates) antara dua posisi Full-time: Full-time AI Engineer di PT Solusi Cerdas Digital (Mar 2023 - Sekarang) dan Full-time Backend Developer di PT Karya Tech Indonesia (Jan 2023 - Okt 2023).",
+    "Unverified extraction quote detected by deterministic verifier [experience: Full-time AI Engineer at PT Solusi Cerdas Digital]: quote \"Mengembangkan chatbot layanan pelanggan menggunakan Python dan OpenAI API serta meningkatkan efisiensi operasional perusahaan sebesar 45% melalui otomasi AI.\" not found verbatim in CV.",
+    "Ambiguous date granularity (year-only without month) on experience 'Freelance Automation Consultant' at 'Freelance / Self-Employed' (2022 - 2023).",
+    "Overlapping employment dates detected (8 month(s) overlap): 'Full-time AI Engineer' at 'PT Solusi Cerdas Digital' (Mar 2023 - Sekarang) overlaps with 'Full-time Backend Developer' at 'PT Karya Tech Indonesia' (Jan 2023 - Okt 2023).",
+    "Overlapping employment dates detected (10 month(s) overlap): 'Full-time AI Engineer' at 'PT Solusi Cerdas Digital' (Mar 2023 - Sekarang) overlaps with 'Freelance Automation Consultant' at 'Freelance / Self-Employed' (2022 - 2023).",
+    "Overlapping employment dates detected (10 month(s) overlap): 'Full-time Backend Developer' at 'PT Karya Tech Indonesia' (Jan 2023 - Okt 2023) overlaps with 'Freelance Automation Consultant' at 'Freelance / Self-Employed' (2022 - 2023).",
+    "Unquantified impact claim on 'Full-time AI Engineer' (PT Solusi Cerdas Digital): \"Meningkatkan efisiensi operasional perusahaan secara signifikan melalui otomasi AI.\" lacks measurable metrics."
+  ],
+  "human_review_required": true
+}

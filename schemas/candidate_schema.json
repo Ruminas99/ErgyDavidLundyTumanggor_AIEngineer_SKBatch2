@@ -1,0 +1,125 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SignalTraceCandidateAssessment",
+  "type": "object",
+  "required": [
+    "candidate_profile",
+    "education",
+    "experience",
+    "skills",
+    "role_match",
+    "information_gaps",
+    "recommendation",
+    "caveats",
+    "human_review_required"
+  ],
+  "properties": {
+    "candidate_profile": {
+      "type": "object",
+      "required": ["full_name", "email", "location", "current_title"],
+      "properties": {
+        "full_name": { "type": "string" },
+        "email": { "type": ["string", "null"] },
+        "location": { "type": ["string", "null"] },
+        "current_title": { "type": ["string", "null"] }
+      }
+    },
+    "education": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["institution", "degree", "graduation_year", "evidence_quote", "evidence_verified", "confidence"],
+        "properties": {
+          "institution": { "type": "string" },
+          "degree": { "type": "string" },
+          "graduation_year": { "type": ["string", "null"] },
+          "evidence_quote": { "type": ["string", "null"] },
+          "evidence_verified": { "type": "boolean" },
+          "confidence": { "type": "string", "enum": ["high", "medium", "low"] }
+        }
+      }
+    },
+    "experience": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["role", "company", "start_date", "end_date", "key_outcomes", "evidence_quote", "evidence_verified", "confidence"],
+        "properties": {
+          "role": { "type": "string" },
+          "company": { "type": "string" },
+          "start_date": { "type": ["string", "null"] },
+          "end_date": { "type": ["string", "null"] },
+          "key_outcomes": { "type": "array", "items": { "type": "string" } },
+          "evidence_quote": { "type": ["string", "null"] },
+          "evidence_verified": { "type": "boolean" },
+          "confidence": { "type": "string", "enum": ["high", "medium", "low"] }
+        }
+      }
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["skill_name", "has_practical_evidence", "evidence_quote", "evidence_verified", "confidence"],
+        "properties": {
+          "skill_name": { "type": "string" },
+          "has_practical_evidence": { "type": "boolean" },
+          "evidence_quote": { "type": ["string", "null"] },
+          "evidence_verified": { "type": "boolean" },
+          "confidence": { "type": "string", "enum": ["high", "medium", "low"] }
+        }
+      }
+    },
+    "role_match": {
+      "type": "object",
+      "required": ["target_role", "match_score_0_to_100", "matched_requirements", "missing_or_unverified_requirements"],
+      "properties": {
+        "target_role": { "type": "string" },
+        "match_score_0_to_100": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "matched_requirements": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["requirement", "supporting_evidence"],
+            "properties": {
+              "requirement": { "type": "string" },
+              "supporting_evidence": { "type": "string" }
+            }
+          }
+        },
+        "missing_or_unverified_requirements": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "information_gaps": {
+      "type": "array",
+      "description": "Informasi yang diminta Job Description namun tidak tertulis di CV. Tidak tertulis bukan berarti kandidat tidak mampu.",
+      "items": { "type": "string" }
+    },
+    "recommendation": {
+      "type": "object",
+      "required": ["status", "summary_rationale", "suggested_interview_questions"],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["proceed_to_interview", "proceed_with_verification", "hold_for_human_review"]
+        },
+        "summary_rationale": { "type": "string" },
+        "suggested_interview_questions": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "caveats": {
+      "type": "array",
+      "description": "Daftar ketidakpastian, klaim skill tanpa bukti, tanggal tumpang tindih, atau kutipan gagal verifikasi.",
+      "items": { "type": "string" }
+    },
+    "human_review_required": {
+      "type": "boolean"
+    }
+  }
+}

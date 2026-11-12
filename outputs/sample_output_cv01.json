@@ -1,0 +1,127 @@
+{
+  "candidate_profile": {
+    "full_name": "Nadya Putri Maharani",
+    "email": "nadya.maharani.mock@example.com",
+    "location": "Bandung, Indonesia",
+    "current_title": "Junior AI & Automation Developer"
+  },
+  "education": [
+    {
+      "institution": "Institut Teknologi Bandung",
+      "degree": "S1 Teknik Informatika",
+      "graduation_year": "2023",
+      "evidence_quote": "S1 Teknik Informatika, Institut Teknologi Bandung (Lulus 2023)",
+      "evidence_verified": true,
+      "confidence": "high"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Junior AI & Automation Developer",
+      "company": "PT Edutech Nusantara",
+      "start_date": "Jan 2024",
+      "end_date": "Sekarang",
+      "key_outcomes": [
+        "Mengembangkan pipeline ekstraksi silabus otomatis menggunakan Python dan Gemini API dengan output JSON terstruktur untuk 1.200+ dokumen kursus.",
+        "Membangun sistem validasi otomatis untuk mendeteksi halusinasi ringkasan materi dan menurunkan tingkat error dari 18% menjadi 3%.",
+        "Mengintegrasikan workflow otomasi internal menggunakan Python dan n8n untuk tim kurikulum."
+      ],
+      "evidence_quote": "Mengembangkan pipeline ekstraksi silabus otomatis menggunakan Python dan Gemini API dengan output JSON terstruktur untuk 1.200+ dokumen kursus.",
+      "evidence_verified": true,
+      "confidence": "high"
+    },
+    {
+      "role": "Data & Python Intern",
+      "company": "CV Digital Kreasi",
+      "start_date": "Jul 2023",
+      "end_date": "Des 2023",
+      "key_outcomes": [
+        "Membuat skrip Python (pandas) untuk pembersihan data peserta pelatihan dan otomasi laporan mingguan."
+      ],
+      "evidence_quote": "Membuat skrip Python (pandas) untuk pembersihan data peserta pelatihan dan otomasi laporan mingguan.",
+      "evidence_verified": true,
+      "confidence": "high"
+    }
+  ],
+  "skills": [
+    {
+      "skill_name": "Python",
+      "has_practical_evidence": true,
+      "evidence_quote": "Mengembangkan pipeline ekstraksi silabus otomatis menggunakan Python dan Gemini API dengan output JSON terstruktur untuk 1.200+ dokumen kursus.",
+      "evidence_verified": true,
+      "confidence": "high"
+    },
+    {
+      "skill_name": "LLM API Integration (Gemini, OpenAI)",
+      "has_practical_evidence": true,
+      "evidence_quote": "Mengembangkan pipeline ekstraksi silabus otomatis menggunakan Python dan Gemini API dengan output JSON terstruktur untuk 1.200+ dokumen kursus.",
+      "evidence_verified": true,
+      "confidence": "high"
+    },
+    {
+      "skill_name": "Structured JSON Output",
+      "has_practical_evidence": true,
+      "evidence_quote": "Mengembangkan pipeline ekstraksi silabus otomatis menggunakan Python dan Gemini API dengan output JSON terstruktur untuk 1.200+ dokumen kursus.",
+      "evidence_verified": true,
+      "confidence": "high"
+    },
+    {
+      "skill_name": "Prompt Evaluation",
+      "has_practical_evidence": true,
+      "evidence_quote": "Membangun sistem validasi otomatis untuk mendeteksi halusinasi ringkasan materi dan menurunkan tingkat error dari 18% menjadi 3%.",
+      "evidence_verified": true,
+      "confidence": "high"
+    },
+    {
+      "skill_name": "n8n Automation",
+      "has_practical_evidence": true,
+      "evidence_quote": "Mengintegrasikan workflow otomasi internal menggunakan Python dan n8n untuk tim kurikulum.",
+      "evidence_verified": true,
+      "confidence": "high"
+    }
+  ],
+  "role_match": {
+    "target_role": "AI & Automation Engineer",
+    "match_score_0_to_100": 90,
+    "matched_requirements": [
+      {
+        "requirement": "Pengalaman praktis membangun aplikasi/workflow dengan Python (min. 1 tahun)",
+        "supporting_evidence": "Memiliki ~2 tahun pengalaman praktis Python di PT Edutech Nusantara (Jan 2024 - Sekarang) dan CV Digital Kreasi (Jul 2023 - Des 2023)."
+      },
+      {
+        "requirement": "Pengalaman menggunakan LLM APIs (OpenAI, Gemini, atau Anthropic) dan structured JSON extraction",
+        "supporting_evidence": "Mengembangkan pipeline ekstraksi silabus otomatis menggunakan Python dan Gemini API dengan output JSON terstruktur untuk 1.200+ dokumen kursus."
+      },
+      {
+        "requirement": "Pemahaman tentang evaluasi AI / pengujian kualitas output",
+        "supporting_evidence": "Membangun sistem validasi otomatis untuk mendeteksi halusinasi ringkasan materi dan menurunkan tingkat error dari 18% menjadi 3%."
+      },
+      {
+        "requirement": "Nilai tambah (Preferred): Pengalaman membangun automation workflow (n8n, Zapier, atau custom scripts)",
+        "supporting_evidence": "Mengintegrasikan workflow otomasi internal menggunakan Python dan n8n untuk tim kurikulum."
+      }
+    ],
+    "missing_or_unverified_requirements": [
+      "Pengelolaan database vektor (Vector Database) — Preferred requirement belum disebutkan di CV",
+      "Implementasi spesifik arsitektur RAG (Retrieval-Augmented Generation) belum dirinci pada pengalaman kerja"
+    ]
+  },
+  "information_gaps": [
+    "Tidak ditemukan informasi mengenai pengelolaan database vektor (Vector Database) pada CV; perlu dikonfirmasi saat screening.",
+    "Tidak ditemukan informasi mengenai pengalaman merancang pipeline RAG (Retrieval-Augmented Generation) pada CV; perlu dikonfirmasi saat screening.",
+    "Tidak ditemukan informasi mengenai kesiapan bekerja Hybrid di Jakarta (lokasi kandidat saat ini di Bandung, Indonesia); perlu dikonfirmasi saat screening."
+  ],
+  "recommendation": {
+    "status": "proceed_to_interview",
+    "summary_rationale": "Kandidat memenuhi seluruh kualifikasi utama (Python >1 tahun, integrasi Gemini API dengan structured JSON output pada 1.200+ dokumen, evaluasi anti-halusinasi terukur dari 18% ke 3%, serta otomasi n8n di industri Edutech). Direkomendasikan lanjut ke tahap interview teknis dengan konfirmasi ringan terkait Vector Database/RAG dan kesiapan kerja Hybrid Jakarta.",
+    "suggested_interview_questions": [
+      "Bisa jelaskan desain sistem validasi otomatis yang Anda bangun di PT Edutech Nusantara hingga mampu menurunkan tingkat error halusinasi dari 18% menjadi 3%?",
+      "Pada CV belum disebutkan penggunaan Vector Database atau RAG. Apakah Anda pernah mengimplementasikan retrieval berbasis vector database di luar proyek yang tercantum?",
+      "Bagaimana kesiapan dan preferensi Anda untuk skema kerja Hybrid di Jakarta mengingat domisili saat ini di Bandung?"
+    ]
+  },
+  "caveats": [
+    "Terdapat information gap minor pada kriteria nilai tambah (Vector Database & RAG); tetap memerlukan human oversight sebelum keputusan rekrutmen."
+  ],
+  "human_review_required": true
+}

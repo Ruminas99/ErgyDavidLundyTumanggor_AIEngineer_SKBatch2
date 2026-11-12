@@ -1,0 +1,18 @@
+NAMA: Dimas Arya Pratama
+EMAIL: dimas.arya.mock@example.com
+LOKASI: Surabaya, Indonesia
+RINGKASAN: Lulusan baru yang antusias pada bidang Artificial Intelligence, Generative AI, dan Otomasi Bisnis.
+
+PENGALAMAN KERJA:
+1. Staf Administrasi Operasional | PT Maju Bersama Logistik | Feb 2024 - Agu 2024
+   - Mengelola input data pengiriman barang harian menggunakan Microsoft Excel.
+   - Membantu pembuatan jadwal pengiriman dan koordinasi dokumen surat jalan dengan tim gudang.
+
+2. Magang Customer Support | Toko Online Sejahtera | Agu 2023 - Nov 2023
+   - Menjawab pertanyaan pelanggan melalui platform chat dan mencatat keluhan harian ke spreadsheet.
+
+PENDIDIKAN:
+- S1 Sistem Informasi, Universitas Airlangga (Lulus 2023)
+
+KEAHLIAN:
+Python, LangChain, RAG (Retrieval-Augmented Generation), OpenAI API, Prompt Engineering, Vector Database, Microsoft Excel.

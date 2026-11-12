@@ -1,0 +1,32 @@
+{
+  "target_role": "AI & Automation Engineer",
+  "scenarios": {
+    "cv_01_strong_verified": {
+      "expected_name": "Nadya Putri Maharani",
+      "expected_experience_count": 2,
+      "expected_has_unsubstantiated_skills": false,
+      "expected_overlapping_dates": false,
+      "expected_human_review_required": true,
+      "expected_status": "proceed_to_interview",
+      "notes": "Happy path dengan bukti kuat; human_review_required tetap true sebagai prinsip human oversight akhir, atau memiliki gap minor pada vector database."
+    },
+    "cv_02_unsubstantiated": {
+      "expected_name": "Dimas Arya Pratama",
+      "expected_experience_count": 2,
+      "expected_has_unsubstantiated_skills": true,
+      "expected_overlapping_dates": false,
+      "expected_human_review_required": true,
+      "expected_status": "proceed_with_verification",
+      "notes": "Mencantumkan Python, LangChain, RAG, OpenAI API di daftar skill, tetapi pengalaman kerja hanya admin Excel dan CS tanpa bukti proyek."
+    },
+    "cv_03_ambiguous_overlap": {
+      "expected_name": "Raka Wijaya Kusuma",
+      "expected_experience_count": 3,
+      "expected_has_unsubstantiated_skills": false,
+      "expected_overlapping_dates": true,
+      "expected_human_review_required": true,
+      "expected_status": "hold_for_human_review",
+      "notes": "Dua peran full-time bertabrakan pada Mar 2023 - Okt 2023, tanggal freelance hanya tahun (2022-2023), klaim dampak tidak terukur, serta simulasi 1 kutipan halusinasi yang harus ditangkap verifier."
+    }
+  }
+}

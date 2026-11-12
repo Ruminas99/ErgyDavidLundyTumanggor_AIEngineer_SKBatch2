@@ -1,0 +1,19 @@
+NAMA: Nadya Putri Maharani
+EMAIL: nadya.maharani.mock@example.com
+LOKASI: Bandung, Indonesia
+RINGKASAN: AI Engineer dengan pengalaman 2 tahun membangun otomasi dokumen dan pipeline LLM berbasis Python.
+
+PENGALAMAN KERJA:
+1. Junior AI & Automation Developer | PT Edutech Nusantara | Jan 2024 - Sekarang
+   - Mengembangkan pipeline ekstraksi silabus otomatis menggunakan Python dan Gemini API dengan output JSON terstruktur untuk 1.200+ dokumen kursus.
+   - Membangun sistem validasi otomatis untuk mendeteksi halusinasi ringkasan materi dan menurunkan tingkat error dari 18% menjadi 3%.
+   - Mengintegrasikan workflow otomasi internal menggunakan Python dan n8n untuk tim kurikulum.
+
+2. Data & Python Intern | CV Digital Kreasi | Jul 2023 - Des 2023
+   - Membuat skrip Python (pandas) untuk pembersihan data peserta pelatihan dan otomasi laporan mingguan.
+
+PENDIDIKAN:
+- S1 Teknik Informatika, Institut Teknologi Bandung (Lulus 2023)
+
+KEAHLIAN:
+Python, LLM API Integration (Gemini, OpenAI), Structured JSON Output, Prompt Evaluation, n8n Automation, Git.
